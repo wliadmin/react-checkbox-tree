@@ -331,14 +331,14 @@ class CheckboxTree extends React.Component {
         return (
             <div className="rct-options">
                 <Button
-                    className="rct-option rct-option-expand-all"
+                    className="rct-option rct-option-expand-all rct-node-clickable"
                     title={lang.expandAll}
                     onClick={this.onExpandAll}
                 >
                     {expandAll}
                 </Button>
                 <Button
-                    className="rct-option rct-option-collapse-all"
+                    className="rct-option rct-option-collapse-all rct-node-clickable"
                     title={lang.collapseAll}
                     onClick={this.onCollapseAll}
                 >
